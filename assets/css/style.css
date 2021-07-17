@@ -1,0 +1,51 @@
+:root {
+        --dark:#1e1e1e;
+        --light: #bda880;
+}
+
+body {
+        background-color: var(--dark);
+}
+
+h1 {
+        text-align: center;
+        color: var(--light);
+}
+
+.item {
+        display: block;
+        /* background-color: black; */
+        /* color: white; */
+        border-radius: 20px;
+        text-align: center;
+}
+
+a {
+        display: block;
+        background-color: black;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        color: var(--light);
+        font-size: 24px;
+}
+
+a:hover {
+        text-decoration: none;
+        color: black;
+        background-color: var(--light);
+}
+
+img {
+        max-width: 500px;
+        border-radius: 10px;
+}
+
+.full-height{
+        height: 100vh;
+}
+
+.icon {
+        max-width: 24px;
+        color: var(--light);
+}
