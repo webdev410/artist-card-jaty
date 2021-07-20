@@ -5,6 +5,8 @@
 
 body {
         background-color: var(--dark);
+       
+        
 }
 
 h1 {
@@ -48,4 +50,10 @@ img {
 .icon {
         max-width: 24px;
         color: var(--light);
+}
+
+@media only screen and (max-width: 600px) {
+        img {
+                max-width: 250px;
+        }
 }
